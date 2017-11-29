@@ -12,7 +12,8 @@ void  sig_handler(int signo)
 {
     if(signo == SIGPIPE)
     {
-        printf("Recv SIGPIPE From Browser.Don't Worry.\n");
+        printf("Recv SIGPIPE From Browser.\n");
+        write_log(1,"sig_handler()","Recv SIGPIPE From Browser.");
     }
 }
 void str_err(const char* name)

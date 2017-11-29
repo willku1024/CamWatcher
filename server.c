@@ -109,7 +109,7 @@ void start_listen(int max_lia)
     listen(socket_fd,max_lia);
 
     pthread_t th;
-    int fd;
+    long fd;
 
     printf("!!! server start accepting !!!\n");
     write_log(1,"start_listen()","!!! server start accepting !!!");
@@ -138,14 +138,14 @@ void start_listen(int max_lia)
             client_num++;
             pthread_mutex_unlock(&mutex);
 
-            if(client_num>6)
+            if(client_num>=7)
             {
                 write_log(2,"start_listen()","server is busy.connect failed.");
                 continue;
             }
             else
             {
-                sprintf(logbuf,"remote :%s:%d connect server.", inet_ntoa(clientaddr_in.sin_addr),
+                sprintf(logbuf,"Remote %s:%d connect server.", inet_ntoa(clientaddr_in.sin_addr),
                         ntohs(clientaddr_in.sin_port));
                 write_log(1,"start_listen()",logbuf);
 
