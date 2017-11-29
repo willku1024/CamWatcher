@@ -1,0 +1,4 @@
+[2017-11-29 18:45:39] [WARNING] [init_mmap()] [mmap success.]
+[2017-11-29 18:45:39] [WARNING] [install_dev()] [fmt & mmap has been inited.]
+[2017-11-29 18:45:44] [INFO] [start_listen()] [remote ip:127.0.0.1,remote port:50322 connect server.]
+[2017-11-29 18:46:44] [INFO] [start_listen()] [remote ip:127.0.0.1,remote port:50346 connect server.]

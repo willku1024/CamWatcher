@@ -1,0 +1,74 @@
+# depslib dependency file v1.0
+1511952334 source:/home/willxin/Desktop/myProjects/video/device.c
+	"device.h"
+	"print.h"
+	"write_log.h"
+	<stdio.h>
+	<stdlib.h>
+	<fcntl.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	<linux/videodev2.h>
+	<sys/mman.h>
+	<sys/types.h>
+	<sys/ioctl.h>
+
+1511950842 /home/willxin/Desktop/myProjects/video/device.h
+	<sys/types.h>
+	<errno.h>
+
+1511813327 /home/willxin/Desktop/myProjects/video/print.h
+
+1511875294 source:/home/willxin/Desktop/myProjects/video/main.c
+	"device.h"
+	"server.h"
+	<stdio.h>
+	<fcntl.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	<stdlib.h>
+	<signal.h>
+
+1511950843 /home/willxin/Desktop/myProjects/video/server.h
+	<pthread.h>
+
+1511814072 source:/home/willxin/Desktop/myProjects/video/print.c
+	"print.h"
+	"huffman.h"
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<linux/types.h>
+	<string.h>
+	<fcntl.h>
+	<wait.h>
+	<time.h>
+	<limits.h>
+
+1511813327 /home/willxin/Desktop/myProjects/video/huffman.h
+
+1511950842 source:/home/willxin/Desktop/myProjects/video/server.c
+	"server.h"
+	"write_log.h"
+	"print.h"
+	"device.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<arpa/inet.h>
+
+1511951369 /home/willxin/Desktop/myProjects/video/write_log.h
+
+1511951369 source:/home/willxin/Desktop/myProjects/video/write_log.c
+	"write_log.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
