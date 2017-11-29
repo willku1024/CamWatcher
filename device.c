@@ -71,7 +71,7 @@ void init_mmap()
         if (buffer[bufs_num].start == MAP_FAILED)
             write_log(3, "init_mmap()","mmap failed.");
         else
-            write_log(2, "init_mmap()","mmap success.");
+            write_log(1, "init_mmap()","mmap success.");
 
     }
 }
@@ -195,7 +195,7 @@ void install_dev()
 {
     init_fmt();
     init_mmap();
-    write_log(2,"install_dev()","fmt & mmap has been inited.");
+    write_log(1,"install_dev()","fmt & mmap has been inited.");
 
 }
 
