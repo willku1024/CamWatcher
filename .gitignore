@@ -1,1 +1,4 @@
-video.*
+video.depend
+video.layout
+video.cbp
+video.runlog
