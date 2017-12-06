@@ -20,7 +20,7 @@
 
 1511813327 /home/willxin/Desktop/myProjects/video/print.h
 
-1511953376 source:/home/willxin/Desktop/myProjects/video/main.c
+1511953578 source:/home/willxin/Desktop/myProjects/video/main.c
 	"device.h"
 	"server.h"
 	<stdio.h>
@@ -49,7 +49,7 @@
 
 1511813327 /home/willxin/Desktop/myProjects/video/huffman.h
 
-1511953172 source:/home/willxin/Desktop/myProjects/video/server.c
+1511954018 source:/home/willxin/Desktop/myProjects/video/server.c
 	"server.h"
 	"write_log.h"
 	"print.h"
